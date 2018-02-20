@@ -1,12 +1,22 @@
+body  {
+	background: #F1F5F2;
+}
 .searchmatch{
-	background:blue ;
-	color: white;
+	background: white ;
+	color: #D81159;
 }
 
 li{
-	border: solid red 1px;
+	border: solid white 1px;
 	margin: 2% auto;
 	width: 70%;
+	color: white;
+	background-color: #D81159;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	   		 0px 8px 13px rgba(0,0,0,0.1),
+			 0px 18px 23px rgba(0,0,0,0.1);
+
+	padding: 2%;
 }
 
 ul {
@@ -22,14 +32,17 @@ ul {
 
 
 li:hover {
-   	border-left: 8px solid orange;
+   	border-left: 8px solid white;
 	margin: 2% auto;
 	width: 70%;
-	background-color:blue;
+	background-color: #D81159;
 }
 
 input {
+	display:block;
 	margin: 0 auto;
+	outline-color: #D81159;
+	font-size: 2em;
 }
 
 a:hover{
@@ -43,4 +56,17 @@ a:hover{
 link:hover {
 	none;
 	color red;
+}
+
+h1 {
+	font-size: 4rem;
+	color: #D81159;
+	text-align: center;
+	padding: 5% 0;
+	font-family: "Bellefair";
+	text-decoration: underline;
+}
+
+.text{
+	text-align: center;
 }
