@@ -11,7 +11,7 @@ $("#input").on( "input", function(){
 
 			//make li with href
 			for(var i=0; i<10; i++){
-				$("#putStuff").append("<a href=\"https://en.wikipedia.org/?curid=" +  info.query.search[i].pageid + "\"> <li><span class=\"title\">" + info.query.search[i].title+ "</span><br>" + info.query.search[i].snippet + "</li></a>");
+				$("#putStuff").append("<a href=\"https://en.wikipedia.org/?curid=" +  info.query.search[i].pageid + "\"target=\"_blank\"> <li><span class=\"title\">" + info.query.search[i].title+ "</span><br>" + info.query.search[i].snippet + "</li></a>");
 			}
 
 

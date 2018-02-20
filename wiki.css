@@ -25,8 +25,22 @@ li:hover {
    	border-left: 8px solid orange;
 	margin: 2% auto;
 	width: 70%;
+	background-color:blue;
 }
 
 input {
 	margin: 0 auto;
+}
+
+a:hover{
+	color:white;
+	text-decoration: none;
+	background-color:blue;
+
+	//none;
+}
+
+link:hover {
+	none;
+	color red;
 }
