@@ -5,4 +5,28 @@
 
 li{
 	border: solid red 1px;
+	margin: 2% auto;
+	width: 70%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	border: none;
+}
+
+.title{
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+
+li:hover {
+   	border-left: 8px solid orange;
+	margin: 2% auto;
+	width: 70%;
+}
+
+input {
+	margin: 0 auto;
 }
